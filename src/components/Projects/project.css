@@ -1,0 +1,177 @@
+
+/*   
+  .table-heading th {
+    background-color: #500933;
+    height: 60px;
+    color: white;
+  }
+  
+
+   */
+
+   
+   .tp{
+  
+    background-color: #450c36;
+
+  }
+  .modal-content{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 22px; 
+    padding: 7%;
+} 
+.modal-backdrop:not(#_) ~ .modal-backdrop,
+body:not(.modal-open) .modal-backdrop {
+  display: none;
+}
+.modal-header {
+  border: none;
+}
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+.form-control{
+  background-color: rgb(244, 243, 243);
+
+}
+.sel{
+  background-color: rgb(244, 243, 243);
+}
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #450c36 !Important;
+    border: solid 1px #450c36 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #450c36 !Important;
+    border: solid 1px #450c36
+}
+
+.input-wrapper{
+  background-color:#f5f0f0;
+  width:93%;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  /* box-shadow:0px 0px 8px  #ddd; */
+  display: flex;
+  align-items: center;
+
+
+}
+input{
+  background-color: transparent;
+  border:none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+
+}
+input::placeholder{
+  color: black;
+  font-size: 19px;
+}
+input:focus{
+  outline: none;
+  
+}
+#search-icon{
+  color: rgb(42, 110, 218);
+  font-size: 20px;
+}
+#filter-icon{
+  color:  rgb(42, 110, 218);
+  font-size: 24px;
+}
+input[type="date"]:not(.has-value):before{
+  color: black;
+  content: attr(placeholder) !important;
+  margin-right: 0.5em;
+}
+
+
+
+
+
+/* Small <= 768px */
+  
+@media(max-width: 700px) {
+  .arrow{
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+  .modal-content{
+
+    width: 98%;
+} 
+.input-wrapper{
+  margin-top: 4%;
+  width: 184px;
+}
+
+
+}
+ 
+.arrow{
+  float: right;
+  margin-top: 7px;
+}
+
+.up-arrow {
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  background: transparent;
+  border-bottom: solid 5px white;
+  border-top-width: 0;
+  cursor: pointer;
+  
+ 
+
+  /* height: 10px; */
+}
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  background: transparent;
+  border-top: solid 5px  #a71d82;
+  border-bottom-width: 0;
+  margin-top:1px;
+  margin-top: 3px;
+  cursor: pointer;
+ 
+}
+  
+
+  
+
+  
