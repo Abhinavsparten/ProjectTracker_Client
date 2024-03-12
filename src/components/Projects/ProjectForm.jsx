@@ -270,8 +270,8 @@ const ProjectForm = ({
                     isInvalid={!!errors.projectType}
                   >
                     <option value="">Project Type</option>
-                    <option value="internal">Internal Project -techjays</option>
-                    <option value="external">External Project -client</option>
+                    <option value="internal">Internal Project </option>
+                    <option value="external">External Project </option>
                   </Form.Select>
                   <Form.Control.Feedback type="invalid">
                     {errors.projectType}
